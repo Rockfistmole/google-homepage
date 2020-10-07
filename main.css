@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1%;
+    padding-right: 2%;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    padding-right: 2%;
+    font-size: 13px;
+    height:5.5vh;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12%;
+    padding-bottom: 2%;
+}
+
+#app-logo {
+    width: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.input-div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5%;
+}
+
+#input-box {
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid rgb(194, 188, 188);
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCbhK5uO9KV6k31ot6fkHvkBuiph2hn200vA&usqp=CAU") no-repeat 1% 50%;
+    background-size: 15px; 
+    height: 40px;
+    padding-left:30px;
+}
+
+#input-box:hover {
+    box-shadow: 1px 3px 8px rgba(32,33,36,.28);
+}
+
+.buttons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    color: grey;
+}
+
+button:hover {
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 5px;
+    color: black;
+}
